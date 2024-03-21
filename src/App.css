@@ -22,6 +22,7 @@
 .Navbar>img#logo {
   width: 63px;
   height: 63px;
+  cursor: pointer;
 }
 
 .navbar-title {
@@ -215,9 +216,10 @@
   font-weight: 400;
 }
 
-.Map-container>img {
+.Map-container > img {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 .last-card {
