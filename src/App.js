@@ -41,7 +41,7 @@ function App() {
               </div>
               <div id='row4'>
                 <div id='profile-container'>
-                  <img src={profileImg} id='profileImg' alt='profile image' />
+                  <img src={profileImg} id='profileImg' alt='profile' />
                   <div>
                     <p className='bold-text1 text-align-center'>12345H</p>
                     <p className='text'>CUSTOMER NUMBER</p>
@@ -159,7 +159,7 @@ function App() {
                     <p className='text'>SIGNATURE & DATE</p>
                   </div>
                   <div>
-                    <img src={logo2} alt='Certificate Image' />
+                    <img src={logo2} alt='Certificate logo' />
                   </div>
                 </div>
               </div>
