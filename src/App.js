@@ -135,11 +135,11 @@ function App() {
               <div id='row9'>
                 <div id='row10'>
                   <p className='card-title'>BUILDING IMAGE</p>
-                  <img src={house} alt='picture of a house' />
+                  <img src={house} alt='a house' />
                 </div>
                 <div id='row11'>
                   <p className='card-title'>NEARBY LANDMARK</p>
-                  <img src={gate} alt='picture of unilag gate' />
+                  <img src={gate} alt='unilag gate' />
                 </div>
               </div>
             </div>
