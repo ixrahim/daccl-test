@@ -41,7 +41,7 @@ function App() {
               </div>
               <div id='row4'>
                 <div id='profile-container'>
-                  <img src={profileImg} id='profileImg' />
+                  <img src={profileImg} id='profileImg' alt='profile image' />
                   <div>
                     <p className='bold-text1 text-align-center'>12345H</p>
                     <p className='text'>CUSTOMER NUMBER</p>
@@ -87,7 +87,7 @@ function App() {
                 {verificationList.map((item, index) => {
                   return <div className='verification-list-container'>
                     <p className='verification-item'>{item}</p>
-                    <img src={gTick} />
+                    <img src={gTick} alt='green-tick' />
                   </div>
                 })}
               </div>
@@ -118,14 +118,14 @@ function App() {
                 <div>
                   <div className='Map-container'>
                     <p>View Map URL</p>
-                    <img src={viewIcon} />
+                    <img src={viewIcon} alt='eye icon'/>
                   </div>
                   <p className='text'>MAP URL</p>
                 </div>
                 <div>
                   <div className='Map-container'>
                     <p>View Map URL</p>
-                    <img src={viewIcon} />
+                    <img src={viewIcon} alt='eye icon' />
                   </div>
                   <p className='text'>ELECTRICITY BILL URL</p>
                 </div>
@@ -135,11 +135,11 @@ function App() {
               <div id='row9'>
                 <div id='row10'>
                   <p className='card-title'>BUILDING IMAGE</p>
-                  <img src={house} />
+                  <img src={house} alt='picture of a house' />
                 </div>
                 <div id='row11'>
                   <p className='card-title'>NEARBY LANDMARK</p>
-                  <img src={gate} />
+                  <img src={gate} alt='picture of unilag gate' />
                 </div>
               </div>
             </div>
@@ -159,7 +159,7 @@ function App() {
                     <p className='text'>SIGNATURE & DATE</p>
                   </div>
                   <div>
-                    <img src={logo2} />
+                    <img src={logo2} alt='Certificate Image' />
                   </div>
                 </div>
               </div>
